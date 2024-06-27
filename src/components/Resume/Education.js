@@ -7,7 +7,7 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+      className="w-full flex flex-col gap-10 lgl:gap-20"
     >
       {/* part one */}
       <div>
@@ -38,7 +38,7 @@ const Education = () => {
       </div>
       {/* part Two */}
 
-      <div>
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2023 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
@@ -51,7 +51,7 @@ const Education = () => {
             des="Designed a robust, trust-minimized architecture for on-chain credential issuance using more than 10 smart contracts for Polygon Mumbai and Ethereum networks."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
