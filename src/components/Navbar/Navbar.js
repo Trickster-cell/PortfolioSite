@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="font-bold ml-6">
-        <img src={logo} alt="logo" style={{height:"10vh"}}/>
+        <img src={logo} alt="logo" style={{ height: "10vh" }} />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-6">
@@ -46,9 +46,11 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I am a B.Tech graduate in Electrical & Electronics Engineering
+                  from IIT Patna. I specialize as a full-stack developer with
+                  experience in backend and blockchain engineering. Proficient
+                  in multiple programming languages and tools, I have a strong
+                  track record in competitive programming and leadership roles.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
