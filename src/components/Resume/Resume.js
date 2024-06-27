@@ -18,7 +18,7 @@ const Resume = () => {
         <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
       </div> */}
 
-      <div className="w-full flex flex-col m-5">
+      <div className="flex flex-col mx-10 my-5">
         <a
           href={resumeLink}
           target="_blank"
