@@ -45,10 +45,25 @@ const styles = `
     gap: 10px;
   }
   .skill-icon {
-    height: 10vh;
-    max-height: 60px; /* Ensure the icons don't get too large */
-    margin: 5px;
-  }
+  height: 10vh;
+  max-height: 60px; /* Ensure the icons don't get too large */
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-icon:hover::after {
+  content: attr(alt);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 999;
+  transform: translate(-50%, -110%);
+}
+
 `;
 
 const skillsData = [
