@@ -1,12 +1,12 @@
 import Banner from "./components/Banner/Banner";
 import Contact from "./components/Contact/Contact";
-import Features from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 import FooterBottom from "./components/Footer/FooterBottom";
 import Navbar from "./components/Navbar/Navbar";
 import Navbar2 from "./components/Navbar/Navbar2";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        <Skills />
         <Projects />
         <Resume />
         <Contact />
