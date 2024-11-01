@@ -16,6 +16,12 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Backend & DevOps Engineer"
+            subTitle="TraBii (Jul 2024 - Present)"
+            result="Remote"
+            des="Building a scalabale backend framework for TraBii App using FastAPI, PostgreSQL, CosmosDB and different Azure Cloud Services."
+          />
+          <ResumeCard
             title="Backend & Blockchain Developer Intern"
             subTitle="Insynk Studios (Apr 2023 - Oct 2023)"
             result="Remote"

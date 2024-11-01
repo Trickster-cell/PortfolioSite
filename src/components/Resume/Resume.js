@@ -11,7 +11,7 @@ const Resume = () => {
   //   const [skillData, setSkillData] = useState(false);
   const [experienceData, setExperienceData] = useState(false);
   //    const [achievementData, setAchievementData] = useState(false);
-  const resumeLink = "https://drive.google.com/file/d/1Xloehbxl_GoQFgkj2qPPXGfikkAgXmf2/view?usp=drive_link";
+  const resumeLink = "https://bit.ly/Yashraj83";
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       {/* <div className="flex justify-center items-center text-center">

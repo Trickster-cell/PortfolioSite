@@ -36,6 +36,7 @@ import numpy from "./images/skills/1200px-NumPy_logo_2020.svg.png";
 import snntorch from "./images/skills/snntorch.png";
 import postman from "./images/skills/postman.png";
 import fastapi from "./images/skills/fastapi.png";
+import WeatherAPP from "./images/projects/Weather-app.png"
 
 export {
   fastapi,
@@ -76,4 +77,5 @@ export {
   nextjs,
   reactjs,
   nodejs,
+  WeatherAPP
 };
