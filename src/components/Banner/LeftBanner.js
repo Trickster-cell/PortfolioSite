@@ -61,27 +61,27 @@ const LeftBanner = () => {
             >
               <FaFacebook />
             </a>
-            <span
+            <a
               className="bannerIcon"
               href="https://www.linkedin.com/in/yashraj83/"
               target="_blank"
             >
               <FaLinkedin />
-            </span>
-            <span
+            </a>
+            <a
               className="bannerIcon"
               href="https://github.com/Trickster-cell"
               target="_blank"
             >
               <FaGithub />
-            </span>
-            <span
+            </a>
+            <a
               className="bannerIcon"
               href="https://www.instagram.com/y.ash_r/"
               target="_blank"
             >
               <FaInstagram />
-            </span>
+            </a>
           </div>
         </div>
         <div>
